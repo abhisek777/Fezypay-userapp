@@ -2,8 +2,8 @@ import 'package:six_cash/common/models/language_model.dart';
 import 'images.dart';
 
 class AppConstants {
-  static const String appName = '6Cash';
-  static const String baseUrl = 'YOUR_BASE_URL_HERE';
+  static const String appName = 'FezyPay Wallet';
+  static const String baseUrl = 'https://fezypay.com';
   static const bool demo = false;
   static const double appVersion = 4.5;
   static const String customerPhoneCheckUri = '/api/v1/customer/auth/check-phone';
