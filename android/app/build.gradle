@@ -33,7 +33,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.sixamtech.sixcash_user"
+    namespace "com.fezypay.wallet"
     compileSdk 35
 
     compileOptions {
@@ -47,7 +47,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.sixamtech.sixcash_user"
+        applicationId "com.fezypay.wallet"
         minSdkVersion 21
         targetSdkVersion 35
         versionCode flutterVersionCode.toInteger()
